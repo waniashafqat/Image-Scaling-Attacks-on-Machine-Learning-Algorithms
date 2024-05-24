@@ -1,0 +1,17 @@
+To generate adversarial examples, run:
+
+python fgsm.py "C:/Users/wania/OneDrive/Desktop/GTSRB Dataset/lol.keras" "C:/Users/wania/OneDrive/Desktop/GTSRB Dataset" gen_data -s 30 30 -e 0.01 -p "C:/Users/wania/OneDrive/Desktop/GTSRB Dataset/results/"
+
+
+To check model robustness, run:
+
+python fgsm.py "C:/Users/wania/OneDrive/Desktop/GTSRB Dataset/lol.keras" "C:/Users/wania/OneDrive/Desktop/GTSRB Dataset" check_loss -s 30 30 -e 0.01 -p "C:/Users/wania/OneDrive/Desktop/GTSRB Dataset/results/"
+
+
+To train the model to defend against FGSM attacks, run:
+
+python fgsm.py "C:/Users/wania/OneDrive/Desktop/GTSRB Dataset/lol.keras" "C:/Users/wania/OneDrive/Desktop/GTSRB Dataset" train -s 30 30 -p "C:/Users/wania/OneDrive/Desktop/GTSRB Dataset/results/" -b 16 -n 15 -v 10
+
+To perform all tasks sequentially, run:
+
+python fgsm.py "C:/Users/wania/OneDrive/Desktop/GTSRB Dataset/lol.keras" "C:/Users/wania/OneDrive/Desktop/GTSRB Dataset" all -s 30 30 -e 0.01 -p "C:/Users/wania/OneDrive/Desktop/GTSRB Dataset/results/" -b 16 -n 15 -v 10
