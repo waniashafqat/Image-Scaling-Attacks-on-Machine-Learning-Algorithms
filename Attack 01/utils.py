@@ -1,8 +1,3 @@
-"""
-Author: Yufei Chen
-Mail: yfchen@sei.xjtu.edu.cn
-"""
-
 import os
 import sys
 import cv2
