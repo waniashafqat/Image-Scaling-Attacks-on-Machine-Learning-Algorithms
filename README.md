@@ -1,10 +1,10 @@
-# Image Scaling Attacks on Machine Learning Algorithms:
+# Image Scaling Attacks on Machine Learning Algorithms
 
-## Overview
-This repository contains the code and resources for the research project on image scaling attacks targeting machine learning (ML) algorithms, particularly focusing on traffic sign recognition systems. The project investigates the vulnerabilities introduced by image scaling in ML models and proposes defense mechanisms to mitigate these attacks.
+This repository contains the code and resources for the research project on 'Image Scaling Attacks on Machine Learning Algorithms: A Cyber Security Perspective'. It explores the susceptibility of ML algorithms to image scaling attacks, a type of adversarial attack that manipulates the size and resolution of input images to induce incorrect model predictions. The research focuses on traffic sign recognition systems using the German Traffic Sign Recognition Benchmark (GTSRB) dataset. It aims to improve the robustness of these systems against such adversarial manipulations and test adversarial attack strategies on neural network-based classifiers, primarily Convolutional Neural Networks (CNNs) built using Keras. For more detailed information, please refer to the research paper included in this repository.
 
-## Introduction
-This project explores the susceptibility of ML algorithms to image scaling attacks, a type of adversarial attack that manipulates the size and resolution of input images to induce incorrect model predictions. The research focuses on traffic sign recognition systems using the German Traffic Sign Recognition Benchmark (GTSRB) dataset. It aims to improve the robustness of these systems against such adversarial manipulations and test adversarial attack strategies on neural network-based classifiers, primarily Convolutional Neural Networks (CNNs) built using Keras.
+
+![summary](https://github.com/waniashafqat/Image-Scaling-Attacks-on-Machine-Learning-Algorithms/assets/73712563/86a8d143-cb09-43a0-9c50-0b0dabddb0ef)
+
 
 ## Project Structure
 - [`Pictures`](./Pictures): Contains the pictures used for attacking.
@@ -38,18 +38,16 @@ To set up the environment for this project, follow these steps:
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
-## Usage
-### Data Preparation and Model Training
-1. Download and extract the GTSRB dataset from https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
-2. Preprocess the dataset and train the model using the `GTSRB Model.ipynb`file.
+## Dataset and Model
+* Download the GTSRB dataset from https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
+* Preprocess train the model using the `GTSRB Model.ipynb`
 
-### Attack and Defense
-1. For finding vulnerabilities in ML model run ‘Interpolations.ipynb’.
-2. Implement image scaling attacks on GTSRB model using ‘Image Scaling Attacks.ipynb’
-3. For defense mechanisms use  ‘Defenses.ipynb’.
+## Usage
+* For finding vulnerabilities in ML model run `Interpolations.ipynb`
+* Implement image scaling attacks on GTSRB model using `Image Scaling Attacks.ipynb`
+* For defense mechanisms use `Defenses.ipynb`
 
 ## Attack Analysis
-The attack analysis includes:
 - Dataset and Model: Utilizes the GTSRB dataset and Keras-based CNN models.
 - Attack Design: Focuses on creating adversarial images using image scaling techniques.
 - Perturbations and Norms: Implements L0, L2, and L∞ norms to generate minimal but effective perturbations.
@@ -62,16 +60,6 @@ Several defense mechanisms are proposed to counteract image scaling attacks:
 - Color Histogram-Based Detection
 - Robust Scaling Algorithms
 
-## Limitations
-- The findings are primarily based on the GTSRB dataset and specific models developed with Keras.
-- Different architectures or frameworks might exhibit varying levels of susceptibility to image scaling attacks.
-- The practicality of deploying our defense mechanisms in real-world applications needs further evaluation.
-
-## Conclusion
-This research highlights the vulnerabilities of ML models to image scaling attacks and proposes practical solutions to enhance their robustness. By addressing these vulnerabilities, we can improve the security and reliability of ML systems in critical applications like autonomous driving.
-
-For more detailed information, please refer to the research paper included in this repository.
-
 ## Contributing
 We welcome contributions to improve the project. Please fork the repository and create a pull request with your changes.
 
@@ -79,7 +67,8 @@ We welcome contributions to improve the project. Please fork the repository and 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For any questions or feedback, please contact [waniashafqat02@gmail.com](mailto:waniashafqat02@gmail.com).
+For any questions or feedback, please contact:
+[waniashafqat02@gmail.com](mailto:waniashafqat02@gmail.com)
 
 ![Python](https://img.shields.io/badge/python-3.12%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-orange)
