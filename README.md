@@ -1,20 +1,5 @@
 # Image Scaling Attacks on Machine Learning Algorithms:
 
-## Table of Contents
-- [Overview](#overview)
-- [Introduction](#introduction)
-- [Project Structure](#project-structure)
-- [Setup](#setup)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Attack Analysis](#attack-analysis)
-- [Defenses](#defenses)
-- [Limitations](#limitations)
-- [Conclusion](#conclusion)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## Overview
 This repository contains the code and resources for the research project on image scaling attacks targeting machine learning (ML) algorithms, particularly focusing on traffic sign recognition systems. The project investigates the vulnerabilities introduced by image scaling in ML models and proposes defense mechanisms to mitigate these attacks.
 
@@ -23,11 +8,11 @@ This project explores the susceptibility of ML algorithms to image scaling attac
 
 ## Project Structure
 - `Pictures/`: Contains the pictures used for attacking.
-- `GTSRB model/`: Contains the CNN Keras model trained on the GTSRB dataset.
-- `(01) GTSRB Model/`: Jupyter notebook for data analysis, model training, and evaluation.
-- `(02) Interpolations/`: Jupyter notebook for finding vulnerable interpolations
-- `(03) Image Scaling Attacks/`: Jupyter notebook for implementing image scaling attacks.
-- `(04) Defenses/`: Jupyter notebook for defense mechanisms for image scaling attacks.
+- `GTSRB model.keras/`: Contains the CNN Keras model trained on the GTSRB dataset.
+- `(01) GTSRB Model.ipynb/`: Jupyter notebook for data analysis, model training, and evaluation.
+- `(02) Interpolations.ipynb/`: Jupyter notebook for finding vulnerable interpolations
+- `(03) Image Scaling Attacks.ipynb/`: Jupyter notebook for implementing image scaling attacks.
+- `(04) Defenses.ipynb/`: Jupyter notebook for defense mechanisms for image scaling attacks.
 - `README.md`: Project overview and instructions.
 
 ## Setup
@@ -97,3 +82,9 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ## Contact
 For any questions or feedback, please contact [waniashafqat02@gmail.com](mailto:waniashafqat02@gmail.com).
+
+![Python](https://img.shields.io/badge/python-3.12%2B-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-orange)
+![Keras](https://img.shields.io/badge/Keras-2.3.0%2B-red)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.1.2.30%2B-brightgreen)
+![Pillow](https://img.shields.io/badge/Pillow-6.2.1%2B-green)
