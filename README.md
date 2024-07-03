@@ -7,13 +7,14 @@ This repository contains the code and resources for the research project on imag
 This project explores the susceptibility of ML algorithms to image scaling attacks, a type of adversarial attack that manipulates the size and resolution of input images to induce incorrect model predictions. The research focuses on traffic sign recognition systems using the German Traffic Sign Recognition Benchmark (GTSRB) dataset. It aims to improve the robustness of these systems against such adversarial manipulations and test adversarial attack strategies on neural network-based classifiers, primarily Convolutional Neural Networks (CNNs) built using Keras.
 
 ## Project Structure
-- `Pictures/`: Contains the pictures used for attacking.
-- `GTSRB model.keras/`: Contains the CNN Keras model trained on the GTSRB dataset.
-- `(01) GTSRB Model.ipynb/`: Jupyter notebook for data analysis, model training, and evaluation.
-- `(02) Interpolations.ipynb/`: Jupyter notebook for finding vulnerable interpolations
-- `(03) Image Scaling Attacks.ipynb/`: Jupyter notebook for implementing image scaling attacks.
-- `(04) Defenses.ipynb/`: Jupyter notebook for defense mechanisms for image scaling attacks.
-- `README.md`: Project overview and instructions.
+- [`Pictures`](./Pictures): Contains the pictures used for attacking.
+- [`GTSRB model.keras`](./GTSRB%20model.keras): Contains the CNN Keras model trained on the GTSRB dataset.
+- [`(01) GTSRB Model.ipynb`](./%2801%29%20GTSRB%20Model.ipynb): Jupyter notebook for data analysis, model training, and evaluation.
+- [`(02) Interpolations.ipynb`](./%2802%29%20Interpolations.ipynb): Jupyter notebook for finding vulnerable interpolations.
+- [`(03) Image Scaling Attacks.ipynb`](./%2803%29%20Image%20Scaling%20Attacks.ipynb): Jupyter notebook for implementing image scaling attacks.
+- [`(04) Defenses.ipynb`](./%2804%29%20Defenses.ipynb): Jupyter notebook for defense mechanisms for image scaling attacks.
+- [`README.md`](./README.md): Project overview and instructions.
+
 
 ## Setup
 ### Prerequisites
@@ -42,13 +43,10 @@ To set up the environment for this project, follow these steps:
 1. Download and extract the GTSRB dataset from https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
 2. Preprocess the dataset and train the model using the `GTSRB Model.ipynb`file.
 
-### Data Preparation and Model Training
-1. For finding vulnerabilities in ML model run ‘Interpolations.ipynb’
-
-### Attack
-1. Implement image scaling attacks on GTSRB model using ‘Image Scaling Attacks.ipynb’
-### Defense
-1. For defense mechanisms use  ‘Defenses.ipynb’
+### Attack and Defense
+1. For finding vulnerabilities in ML model run ‘Interpolations.ipynb’.
+2. Implement image scaling attacks on GTSRB model using ‘Image Scaling Attacks.ipynb’
+3. For defense mechanisms use  ‘Defenses.ipynb’.
 
 ## Attack Analysis
 The attack analysis includes:
@@ -78,7 +76,7 @@ For more detailed information, please refer to the research paper included in th
 We welcome contributions to improve the project. Please fork the repository and create a pull request with your changes.
 
 ## License
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 For any questions or feedback, please contact [waniashafqat02@gmail.com](mailto:waniashafqat02@gmail.com).
