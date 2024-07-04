@@ -21,7 +21,9 @@ This repository contains the code and resources for the research project on 'Ima
 - Python 3.12 or higher
 - IDE: Jupyter Notebook
 - Required libraries: OpenCV, Pillow, TensorFlow, Keras, NumPy
-- OS: Windows 10/11, Ubuntu 20.04 LTS, or other Linux distributions.
+- System requirements: 16GB of RAM and a GPU
+
+We have tested the attack on Windows 10/11 and Ubuntu.
 
 ### Installation
 To set up the environment for this project, follow these steps:
@@ -68,7 +70,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 For any questions or feedback, please contact:
+
 [waniashafqat02@gmail.com](mailto:waniashafqat02@gmail.com)
+
+[hafizhassanahmedkhan@gmail.com](mailto:hafizhassanahmedkha@gmail.com)
 
 ![Python](https://img.shields.io/badge/python-3.12%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-orange)
